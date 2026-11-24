@@ -1,6 +1,6 @@
-# Cursor
+# Morrow
 
-A minimal React, TypeScript, Vite and Tailwind CSS starting point.
+Morrow is a responsive product landing page built with React, TypeScript, Vite and Tailwind CSS v4. Its visual foundation follows the project guidance in `DESIGN.md`, with original product storytelling and interface illustrations.
 
 ## Getting started
 
@@ -19,11 +19,9 @@ npm run build
 
 ## Structure
 
-- `src/App.tsx` is the application entry component.
-- `src/main.tsx` mounts React and loads the global stylesheet.
-- `src/index.css` loads Tailwind, defines the design tokens and registers local fonts.
-- `src/assets/fonts` contains the supplied Cursor Gothic font files.
+- `src/App.tsx` contains the page sections and interactive workflow.
+- `src/App.css` contains responsive page styling and product preview details.
+- `src/index.css` loads Tailwind, defines design tokens and registers Cursor Gothic.
+- `src/assets/fonts` contains the supplied font files.
 
-Tailwind CSS v4 is integrated through the Vite plugin. Use the theme variables defined in
-`src/index.css` for project colors, type, spacing and shape. JetBrains Mono is the code font
-fallback and can be provided locally when the font files are available.
+Tailwind CSS v4 is integrated through the Vite plugin. Hugeicons uses the free Stroke Rounded set. JetBrains Mono is the code font fallback; it can be provided locally when the font files are available.
